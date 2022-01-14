@@ -1,4 +1,4 @@
-CREATE TAVLE people (
+CREATE TABLE people (
     id INT NOT NULL PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(30) NOT NULL,
     birth DATE
