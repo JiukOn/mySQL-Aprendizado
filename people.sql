@@ -20,3 +20,5 @@ ALTER TABLE `people` ADD `gender` VARCHAR(1) NOT NULL AFTER `birth`;
 UPDATE people SET gender = 'M' WHERE id = 1;
 UPDATE people SET gender = 'M' WHERE id = 2;
 UPDATE people SET gender = 'M' WHERE id = 3;
+
+SELECT * FROM people GROUP BY gender;
