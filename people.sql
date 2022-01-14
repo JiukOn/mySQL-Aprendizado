@@ -14,3 +14,5 @@ SELECT * FROM people WHERE id = 2;
 DELETE FROM people WHERE id = 2;
 
 SELECT * FROM people ORDER BY name;
+
+ALTER TABLE `people` ADD `gender` VARCHAR(1) NOT NULL AFTER `birth`;
