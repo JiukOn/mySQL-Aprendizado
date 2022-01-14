@@ -12,3 +12,5 @@ UPDATE people SET name = 'Thanos' WHERE id = 1;
 
 SELECT * FROM people WHERE id = 2;
 DELETE FROM people WHERE id = 2;
+
+SELECT * FROM people ORDER BY name;
